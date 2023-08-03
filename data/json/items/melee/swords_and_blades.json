@@ -797,7 +797,7 @@
     "color": "dark_gray",
     "techniques": [ "WBLOCK_2" ],
     "qualities": [ [ "CUT", 2 ], [ "GRASS_CUT", 1 ], [ "BUTCHER", 15 ] ],
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
+    "flags": [ "BELT_CLIP", "DURABLE_MELEE", "SHEATH_SWORD" ],
     "weapon_category": [ "SHORT_SWORDS" ],
     "melee_damage": { "bash": 5, "cut": 21 }
   },
