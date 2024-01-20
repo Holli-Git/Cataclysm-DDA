@@ -1153,7 +1153,7 @@
     "description": "For your whole life you've been forbidden from indulging in your peculiar tastes.  Now the world's ended, and you'll be damned if anyone is going to tell you that you can't eat people.",
     "starting_trait": true,
     "valid": false,
-    "cancels": [ "VEGETARIAN", "VEGAN", "HERBIVORE", "RUMINANT", "GRAZER" ],
+    "cancels": [ "VEGETARIAN", "VEGAN", "VEGETARIANIST", "HERBIVORE", "RUMINANT", "GRAZER" ],
     "flags": [ "CANNIBAL" ]
   },
   {
@@ -1164,7 +1164,7 @@
     "description": "You're convinced that these things that look vaguely human from elsewhere are definitely not people.  Therefore it's okay to eat them, right?",
     "starting_trait": true,
     "valid": false,
-    "cancels": [ "VEGETARIAN", "VEGAN", "HERBIVORE", "RUMINANT", "GRAZER", "CANNIBAL" ],
+    "cancels": [ "VEGETARIAN", "VEGAN", "VEGETARIANIST", "HERBIVORE", "RUMINANT", "GRAZER", "CANNIBAL" ],
     "flags": [ "STRICT_HUMANITARIAN" ]
   },
   {
@@ -1566,7 +1566,7 @@
     "starting_trait": true,
     "vitamins_absorb_multi": [ [ "flesh", [ [ "vitC", 0 ], [ "calcium", 0 ], [ "iron", 0 ] ] ] ],
     "types": [ "DIET" ],
-    "cancels": [ "CANNIBAL", "STRICT_HUMANITARIAN", "VEGAN" ],
+    "cancels": [ "CANNIBAL", "STRICT_HUMANITARIAN", "VEGAN", "VEGETARIANIST" ],
     "changes_to": [ "HERBIVORE" ],
     "category": [ "CATTLE", "RABBIT" ]
   },
@@ -1898,7 +1898,18 @@
     "starting_trait": true,
     "valid": false,
     "types": [ "DIET" ],
-    "cancels": [ "CANNIBAL", "STRICT_HUMANITARIAN", "VEGETARIAN" ]
+    "cancels": [ "CANNIBAL", "STRICT_HUMANITARIAN", "VEGETARIAN", "VEGETARIANIST" ]
+  },
+  {
+    "type": "mutation",
+    "id": "VEGETARIANIST",
+    "name": { "str": "Vegetarian" },
+    "points": -2,
+    "description": "You're a vegetarian, while you don't have issues eating eggs, milk, or other animal products, you will not eat or wear stuff that an animal has died for.",
+    "starting_trait": true,
+    "valid": false,
+    "types": [ "DIET" ],
+    "cancels": [ "CANNIBAL", "STRICT_HUMANITARIAN", "VEGETARIAN", "VEGAN" ]
   },
   {
     "type": "mutation",
