@@ -161,6 +161,7 @@ static const trait_id trait_THRESH_URSINE( "THRESH_URSINE" );
 static const trait_id trait_UNDINE_SLEEP_WATER( "UNDINE_SLEEP_WATER" );
 static const trait_id trait_VEGAN( "VEGAN" );
 static const trait_id trait_VEGETARIAN( "VEGETARIAN" );
+static const trait_id trait_VEGETARIANIST( "VEGETARIANIST" );
 static const trait_id trait_WATERSLEEP( "WATERSLEEP" );
 
 // note: cannot use constants from flag.h (e.g. flag_ALLERGEN_VEGGY) here, as they
@@ -174,6 +175,12 @@ static const std::array<flag_id, 6> carnivore_blacklist {{
 static const std::array<flag_id, 2> herbivore_blacklist {{
         json_flag_ALLERGEN_MEAT, json_flag_ALLERGEN_EGG
     }};
+
+static const std::array<flag_id, 6> vegan_blacklist {{
+          json_flag_ALLERGEN_MEAT, json_flag_ALLERGEN_EGG,
+          json_flag_ALLERGEN_MILK, json_flag_ANIMAL_PRODUCT,
+         json_flag_ALLERGEN_CHEESE, flag_URSINE_HONEY
+      }};
 
 // TODO: Move pizza scraping here.
 static int compute_default_effective_kcal( const item &comest, const Character &you,
@@ -858,11 +865,14 @@ ret_val<edible_rating> Character::can_eat( const item &food ) const
         return ret_val<edible_rating>::make_failure( INEDIBLE_MUTATION,
                 _( "The thought of eating that makes you feel sick." ) );
     }
-    const std::array<flag_id, 6> vegan_blacklist {{
-            json_flag_ALLERGEN_MEAT, json_flag_ALLERGEN_EGG,
-            json_flag_ALLERGEN_MILK, json_flag_ANIMAL_PRODUCT,
-            json_flag_ALLERGEN_CHEESE, flag_URSINE_HONEY
-        }};
+
+        if( ( has_trait( trait_VEGETARIANIST ) &&
+        food.has_any_flag( json_flag_ALLERGEN_MEAT ) ) {
+        // Like non-cannibal, but more strict!
+        return ret_val<edible_rating>::make_failure( INEDIBLE_MUTATION,
+                _( "You're not going to eat food that something had to die for." ) );
+    }
+    
     if( has_trait( trait_VEGAN ) &&
         food.has_any_flag( vegan_blacklist ) ) {
         return ret_val<edible_rating>::make_failure( INEDIBLE_MUTATION,
