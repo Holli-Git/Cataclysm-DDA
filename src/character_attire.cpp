@@ -111,7 +111,17 @@ ret_val<void> Character::can_wear( const item &it, bool with_equip_change ) cons
                                       it.made_of( material_acidchitin ) ) ) {
         return ret_val<void>::make_failure( _( "Can't wear that, it's made from an animal!" ) );
     }
-
+    
+    if( has_trait( trait_VEGETARIANIST ) && ( it.made_of( material_leather ) ||
+                                      it.made_of( material_treatedleather ) ||
+                                      it.made_of( material_aliencarapace ) ||
+                                      it.made_of( material_fur ) ||
+                                      it.made_of( material_chitin ) ||
+                                      it.made_of( material_bone ) ||
+                                      it.made_of( material_gutskin ) ||
+                                      it.made_of( material_acidchitin ) ) ) {
+        return ret_val<void>::make_failure( _( "Can't wear that, it's made from an animal!" ) );
+    }
     if( it.is_filthy() && has_trait( trait_SQUEAMISH ) ) {
         return ret_val<void>::make_failure( _( "Can't wear that, it's filthy!" ) );
     }
