@@ -94,7 +94,9 @@ static const item_group_id Item_spawn_data_EMPTY_GROUP( "EMPTY_GROUP" );
 
 static const material_id material_bean( "bean" );
 static const material_id material_blood( "blood" );
+static const material_id material_blood_mi-go( "blood_mi-go" );
 static const material_id material_bone( "bone" );
+static const material_id material_bone_mi-go( "bone_mi-go" );
 static const material_id material_bread( "bread" );
 static const material_id material_cheese( "cheese" );
 static const material_id material_dried_vegetable( "dried_vegetable" );
@@ -108,6 +110,7 @@ static const material_id material_honey( "honey" );
 static const material_id material_hydrocarbons( "hydrocarbons" );
 static const material_id material_iflesh( "iflesh" );
 static const material_id material_junk( "junk" );
+static const material_id material_meat_mi-go( "meat_mi-go" );
 static const material_id material_milk( "milk" );
 static const material_id material_mushroom( "mushroom" );
 static const material_id material_nut( "nut" );
