@@ -229,24 +229,6 @@
     "//2": "potentially revert_to an empty container e.g. bottle_30ml_atomizer"
   },
   {
-    "id": "rx12_injector",
-    "type": "TOOL",
-    "name": { "str": "RX12 jet injector" },
-    "description": "A Rivtech RX12 jet injector, a small pistol-shaped device used to inject advanced fast-healing chemicals through the skin without using a needle.  A label on the side warns against using more than two doses per hour.",
-    "category": "drugs",
-    "weight": "316 g",
-    "volume": "500 ml",
-    "price": 100000,
-    "price_postapoc": 1500,
-    "material": [ "ceramic", "superalloy" ],
-    "symbol": ",",
-    "color": "light_gray",
-    "ammo": [ "ampoule" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ampoule": 2 } } ],
-    "charges_per_use": 1,
-    "use_action": [ "JET_INJECTOR" ]
-  },
-  {
     "id": "scalpel",
     "type": "TOOL",
     "name": { "str": "scalpel" },

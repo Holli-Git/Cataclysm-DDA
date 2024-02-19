@@ -807,15 +807,7 @@
           { "item": "tools_science", "chance": 80, "repeat": [ 0, 1 ] },
           { "item": "harddrugs", "chance": 50, "repeat": [ 0, 1 ] }
         ]
-      },
-      "place_loot": [
-        { "item": "ampoule", "x": 55, "y": 47, "chance": 100, "repeat": [ 0, 3 ] },
-        { "item": "rx12_injector", "x": 55, "y": 47, "chance": 100 },
-        { "item": "ampoule", "x": 55, "y": 48, "chance": 100, "repeat": [ 0, 3 ] },
-        { "item": "rx12_injector", "x": 55, "y": 48, "chance": 100 },
-        { "item": "ampoule", "x": 55, "y": 49, "chance": 100, "repeat": [ 0, 3 ] },
-        { "item": "rx12_injector", "x": 55, "y": 49, "chance": 100 }
-      ]
+      }
     }
   }
 ]

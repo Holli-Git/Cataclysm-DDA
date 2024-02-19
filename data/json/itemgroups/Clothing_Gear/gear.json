@@ -166,8 +166,6 @@
       [ "backpack", 15 ],
       [ "backpack_denim", 1 ],
       [ "rope_30", 10 ],
-      { "item": "rx12_injector", "prob": 1, "charges-min": 0 },
-      { "item": "rx11_stimpack", "prob": 1, "charges-min": 0 },
       [ "flaregun", 5 ],
       [ "signal_flare", 5 ],
       { "item": "handflare", "prob": 20, "charges": 300 },

@@ -1136,5 +1136,30 @@
     "id": "ammunition_box_carlgustav_hedp",
     "replace": "ammunition_box_carlgustav",
     "variant": "ammunition_box_carlgustav_hedp"
+  },
+  {
+    "type": "MIGRATION",
+    "id": "rx12_injector",
+    "replace": "syringe"
+  },
+  {
+    "type": "MIGRATION",
+    "id": "wearable_rx12",
+    "replace": "syringe"
+  },
+  {
+    "type": "MIGRATION",
+    "id": "rx11_stimpack",
+    "replace": "syringe"
+  },
+  {
+    "type": "MIGRATION",
+    "id": "stimpack_ammo",
+    "replace": "adderall"
+  },
+  {
+    "type": "MIGRATION",
+    "id": "ampoule",
+    "replace": "panacea"
   }
 ]
