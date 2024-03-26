@@ -1213,6 +1213,16 @@
     "replace": "remington_870"
   },
   {
+    "id": "bottle_suppressor",
+    "type": "MIGRATION",
+    "replace": "filter_suppressor"
+  },
+  {
+    "id": "riv_suppressor",
+    "type": "MIGRATION",
+    "replace": "suppressor"
+  },
+  {
     "id": "surv_six_shooter",
     "type": "MIGRATION",
     "replace": "sw_619"
