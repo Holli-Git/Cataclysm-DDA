@@ -13,9 +13,9 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "40", "10mm" ],
+    "ammo_type": [ "10mm" ],
     "flags": [ "SPEEDLOADER" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "40": 6, "10mm": 6 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "10mm": 6 } } ]
   },
   {
     "id": "glock_20mag",

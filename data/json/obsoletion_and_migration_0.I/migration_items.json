@@ -1211,5 +1211,15 @@
     "id": "lever_shotgun",
     "type": "MIGRATION",
     "replace": "remington_870"
+  },
+  {
+    "id": "surv_six_shooter",
+    "type": "MIGRATION",
+    "replace": "sw_619"
+  },
+  {
+    "id": "surv_hand_cannon",
+    "type": "MIGRATION",
+    "replace": "sw_619"
   }
 ]
