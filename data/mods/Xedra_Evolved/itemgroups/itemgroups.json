@@ -14,7 +14,6 @@
       { "item": "textbook_speech", "prob": 6 },
       { "item": "survival_book", "prob": 4 },
       { "item": "fun_survival", "prob": 10 },
-      { "item": "recipe_augs", "prob": 1 },
       { "item": "decoy_anarch", "prob": 10 },
       {
         "item": "aspirin",
@@ -96,7 +95,6 @@
       [ "fun_survival", 5 ],
       [ "howto_traps", 10 ],
       [ "decoy_anarch", 8 ],
-      [ "recipe_augs", 8 ],
       {
         "item": "aspirin",
         "prob": 85,

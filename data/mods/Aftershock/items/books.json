@@ -322,10 +322,21 @@
   {
     "id": "recipe_augs",
     "type": "BOOK",
-    "copy-from": "recipe_augs",
+    "category": "manuals",
     "name": { "str": "Augmentative Tech Review", "str_pl": "issues of Augmentative Tech Review" },
     "description": "This annual publication covers the various ways in which people use technology to improve their bodies.  There are a few in-depth and thoroughly illustrated articles on prosthetics, though they tend to use too much jargon.",
+    "weight": "400 g",
+    "volume": "500 ml",
+    "price": "30 USD",
+    "price_postapoc": "7 USD 50 cent",
+    "material": [ "paper" ],
     "symbol": "?",
-    "color": "pink"
+    "color": "pink",
+    "skill": "electronics",
+    "required_level": 4,
+    "max_level": 5,
+    "intelligence": 10,
+    "time": "45 m",
+    "fun": 1
   }
 ]

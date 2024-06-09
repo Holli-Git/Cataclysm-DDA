@@ -310,7 +310,6 @@
       { "item": "tazer", "prob": 3 },
       { "item": "usb_drive", "prob": 5 },
       { "item": "manual_electronics", "prob": 20 },
-      { "item": "recipe_augs", "prob": 4 },
       { "item": "vac_sealer", "prob": 10 },
       { "item": "cell_phone", "prob": 30, "charges": [ 0, -1 ] },
       { "item": "smart_phone", "prob": 40, "charges": [ 0, -1 ] },

@@ -1125,7 +1125,6 @@
       { "item": "scots_tailor", "prob": 10 },
       { "group": "kids_books", "prob": 70 },
       { "item": "tailor_portfolio", "prob": 1 },
-      { "item": "recipe_augs", "prob": 1 },
       { "item": "laptop", "prob": 10, "charges": [ 0, 500 ] },
       { "item": "atomic_light", "prob": 2 },
       { "item": "atomic_lamp", "prob": 2 },

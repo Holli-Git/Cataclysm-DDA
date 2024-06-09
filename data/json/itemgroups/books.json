@@ -395,7 +395,6 @@
       { "item": "preserving_juice", "prob": 10 },
       { "group": "magazines", "prob": 580 },
       { "item": "atomic_survival", "prob": 1 },
-      { "item": "recipe_augs", "prob": 4 },
       { "item": "textbook_anarch", "prob": 1 },
       { "item": "book_pneumatics", "prob": 1 },
       { "item": "decoy_anarch", "prob": 10 },
@@ -614,7 +613,6 @@
       { "item": "manual_computer", "prob": 10 },
       { "item": "webbasics_computer", "prob": 6 },
       { "item": "hackerman_computer", "prob": 4 },
-      { "item": "recipe_augs", "prob": 5 },
       { "item": "howto_computer", "prob": 10 },
       { "item": "textbook_robots", "prob": 5 },
       { "item": "text_gunsmith", "prob": 5 },
@@ -830,7 +828,6 @@
       { "item": "recipe_medicalmut", "prob": 10 },
       { "item": "recipe_serum", "prob": 10 },
       { "item": "recipe_labchem", "prob": 100 },
-      { "item": "recipe_augs", "prob": 100 },
       { "item": "reference_firstaid1", "prob": 15 },
       { "item": "textbook_toxicology", "prob": 15 }
     ]
