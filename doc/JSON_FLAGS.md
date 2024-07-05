@@ -966,7 +966,6 @@ See [Mapgen flags](MAPGEN.md#mapgen-flags).
 - ```mx_burned_ground``` Fire has ravaged this place.
 - ```mx_point_burned_ground``` Fire has ravaged this place (partial application).
 - ```mx_casings``` Several types of spent casings (solitary, groups, entire overmap tile).
-- ```mx_city_trap``` A spinning blade trap with a loudspeaker to attract zombies.
 - ```mx_clay_deposit``` A small surface clay deposit.
 - ```mx_clearcut``` All trees become stumps.
 - ```mx_collegekids``` Corpses and items.

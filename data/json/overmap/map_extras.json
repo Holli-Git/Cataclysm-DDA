@@ -612,18 +612,6 @@
     "flags": [ "MAN_MADE", "CLASSIC" ]
   },
   {
-    "id": "mx_city_trap",
-    "type": "map_extra",
-    "name": { "str": "Zombie Trap" },
-    "description": "Someone put up a trap against zombies here.",
-    "generator": { "generator_method": "map_extra_function", "generator_id": "mx_city_trap" },
-    "sym": "I",
-    "color": "green",
-    "autonote": true,
-    "min_max_zlevel": [ 0, 0 ],
-    "flags": [ "MAN_MADE", "CLASSIC" ]
-  },
-  {
     "id": "mx_laststand",
     "type": "map_extra",
     "name": { "str": "Last Stand" },
