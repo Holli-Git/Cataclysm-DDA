@@ -584,6 +584,7 @@
         "description": "The Model 60 is a semi-automatic rifle chambered in .22 LR, and looks awfully familiar to a 10/22.  However, instead of a detachable magazine, it features a tubular magazine below the barrel.  While out of production, a large number of them have been made since the 60s, making it a very commonplace rifle."
       }
     ],
+    "flags": [ "RELOAD_ONE" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22": 14 } } ],
     "ranged_damage": { "damage_type": "bullet", "amount": 3 },
     "range": 6,
