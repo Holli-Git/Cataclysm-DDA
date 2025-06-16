@@ -1353,7 +1353,6 @@ static bool mx_sandy_beach( map &m, const tripoint_abs_sm &abs_sub )
 static FunctionMap builtin_functions = {
     { map_extra_mx_null, mx_null },
     { map_extra_mx_roadworks, mx_roadworks },
-    { map_extra_mx_minefield, mx_minefield },
     { map_extra_mx_helicopter, mx_helicopter },
     { map_extra_mx_portal_in, mx_portal_in },
     { map_extra_mx_grove, mx_grove },
