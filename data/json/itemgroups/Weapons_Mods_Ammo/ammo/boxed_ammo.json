@@ -927,7 +927,7 @@
     "id": "boxed_22lr_100_used",
     "on_overflow": "spill",
     "container-item": "22lr_ammo_box_100",
-    "items": [ { "group": "22lr_tray_used", "count": 1 }, { "group": "22lr_tray_full", "count": 1 } ]
+    "items": [ { "group": "22lr_tray_used", "count": 1 }, { "group": "22lr_tray_full", "prob": 50 ] } ]
   },
   {
     "type": "item_group",
@@ -935,7 +935,7 @@
     "id": "boxed_22lr_500_used",
     "on_overflow": "spill",
     "container-item": "22lr_ammo_box_500",
-    "items": [ { "group": "22lr_tray_used", "count": [ 1, 6 ] }, { "group": "22lr_tray_full", "count": [ 0, 4 ] } ]
+    "items": [ { "group": "22lr_tray_used" }, { "group": "22lr_tray_full", "count": [ 0, 4 ] } ]
   },
   {
     "type": "item_group",
@@ -1930,21 +1930,21 @@
     "subtype": "distribution",
     "id": "boxed_22lr_100_looted",
     "container-item": "22lr_ammo_box_100",
-    "items": [ { "group": "22lr_tray_looted", "count": [ 0, 1 ] } ]
+    "items": [ { "group": "22lr_tray_looted", "count": [ 0, 2 ], "prob": 80 } ]
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "id": "boxed_22lr_500_looted",
     "container-item": "22lr_ammo_box_500",
-    "items": [ { "group": "22lr_tray_looted", "count": [ 0, 2 ] }, { "group": "22lr_tray_full", "count": [ 0, 1 ] } ]
+    "items": [ { "group": "22lr_tray_looted", "count": [ 0, 3 ] }, { "group": "22lr_tray_full", "count": [ 0, 1 ] } ]
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "id": "boxed_22lr_1000_looted",
     "container-item": "22lr_ammo_box_1000",
-    "items": [ { "group": "boxed_22lr_500_looted", "count": [ 0, 2 ] } ]
+    "items": [ { "group": "boxed_22lr_500_looted", "count": [ 0, 1 ] }{ "group": "boxed_22lr_500", "prob": 10 } ]
   },
   {
     "type": "item_group",
